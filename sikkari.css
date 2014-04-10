@@ -1,0 +1,89 @@
+/* sikkari.css */
+
+#page_head {
+    background-color: blue; color:white; font-size: 0.8em;
+    padding:3px; margin:0px;
+}
+#page_head .topmenu {
+    float:right; color: white;
+}
+#page_head .topmenu a {
+    color: white;
+}
+
+h3 { color: blue; padding:5px; border-bottom: solid 2px blue; border-left: solid 12px blue; border-top: solid 2px blue; }
+h4 { color: white;  background-color: #9090ff; padding:6px;  }
+
+#user_form {
+    width: 420px;
+    padding:20px;
+    margin:0px;
+    background-color: #f0f0f0;
+}
+#user_form label /* 150px */ { width: 142px; float:left; text-align: right; padding: 4px; margin: 0; font-size: 12px; }
+#user_form input /* 250px */ { width: 232px; float:left; padding:4px; margin:4px; }
+#user_form button { width:150px; padding: 6px; }
+
+
+.menu {
+    border: 1px solid blue;
+}
+
+#todo_form {
+    margin-bottom: 6px;
+}
+#todo_form input {
+    background-color: #ffffcc;
+}
+
+.todo_list {
+    padding: 12px;
+    line-height: 1.5em;
+    border: solid 1px #c0c0f0;
+    background-color: #fffff0;
+    font-size: 1em;
+}
+.item {
+    margin: 4px; padding: 3px;
+    border-bottom: 1px solid #c0c0f0;
+}
+.done_list {
+    padding: 12px;
+    line-height: 1.5em;
+    border: solid 1px #c0c0f0;
+    background-color: #e0e0e0;
+    font-size: 0.8em;
+}
+
+.star a {
+    color: orange;
+}
+.item_info {
+    font-size: 0.8em;
+}
+
+.group_item {
+    width: 400px;
+}
+.group_head a {
+    color: white;
+    font-size: 0.8em;
+}
+.group_left {
+    float: left;
+    width: 100px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.group_right {
+    float: left;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.submenu {
+    background-color:  #ffffe0;
+    font-size: 0.8em;
+    padding:4px;
+}
